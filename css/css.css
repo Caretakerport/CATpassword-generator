@@ -1,0 +1,38 @@
+/* Additional styles for the support container */
+.support-container {
+    margin: 40px 0;
+    margin: 40px 0;
+    width: 400px;
+    height: 600px;
+    padding: 10px 25px;
+    background: #0a0e31;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.45), 0 4px 8px rgba(0, 0, 0, 0.35), 0 8px 12px rgba(0, 0, 0, 0.15);
+    font-family: "Montserrat";
+    color: white;
+    overflow: hidden;
+}
+
+.support-container h1 {
+    font-size: 1.75rem;
+    margin: 10px -5px;
+    margin-bottom: 30px;
+}
+
+.support-container p {
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.support-container a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.support-container a:hover {
+    text-decoration: underline;
+}
