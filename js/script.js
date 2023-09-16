@@ -191,3 +191,35 @@ function disableOnlyCheckbox(){
 	})
 })
 
+// JavaScript for toggling visibility
+document.getElementById('show-support-link').addEventListener('click', function (e) {
+    e.preventDefault();
+    document.getElementById('support-container').style.display = 'block';
+    document.getElementById('password-container').style.display = 'none'; // Hide the password container
+    document.getElementById('show-support-link').style.display = 'none';
+    document.getElementById('hide-support-button').style.display = 'inline-block';
+});
+
+document.getElementById('hide-support-button').addEventListener('click', function () {
+    document.getElementById('support-container').style.display = 'none';
+    document.getElementById('password-container').style.display = 'block'; // Show the password container
+    document.getElementById('show-support-link').style.display = 'inline-block';
+    document.getElementById('hide-support-button').style.display = 'none';
+});
+// JavaScript for toggling visibility
+const passwordGeneratorContainer = document.querySelector('.container');
+const supportContainer = document.querySelector('.support-container');
+const showSupportLink = document.getElementById('show-support-link');
+
+showSupportLink.addEventListener('click', function (e) {
+    e.preventDefault();
+    
+    if (passwordGeneratorContainer.style.display === 'block') {
+        passwordGeneratorContainer.style.display = 'none';
+        supportContainer.style.display = 'block';
+    } else {
+        passwordGeneratorContainer.style.display = 'block';
+        supportContainer.style.display = 'none';
+    }
+});
+
