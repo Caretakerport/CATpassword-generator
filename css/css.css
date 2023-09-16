@@ -36,3 +36,28 @@
 .support-container a:hover {
     text-decoration: underline;
 }
+/* Your existing CSS code */
+/* ... */
+
+/* CSS for hiding the support container and link-button container */
+.support-container {
+    display: none;
+}
+
+.link-button-container {
+    text-align: center;
+}
+
+.link-button-container a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000e1d;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.link-button-container button {
+    display: none;
+}
